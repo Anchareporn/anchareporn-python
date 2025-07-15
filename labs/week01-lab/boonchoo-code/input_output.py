@@ -6,7 +6,17 @@ print("Hello,", user_name, "!")
 print("Nice to meet you,", user_name)
 
 # Exercise 2: Input with Numbers
+<<<<<<< HEAD
 # Note: input() always returns a string, so we need to convert to number
+=======
+# Note: input() always returns a string, so we need to convert to numbers
+print("\n=== Exercise 2: Working with Numbers ===")
+age_string = input("How old are you? ")
+age = int(age_string)  # Convert string to integer
+print("You are", age, "years old")
+print("Next year you will be", age + 1, "years old")
+
+>>>>>>> upstream/main
 # Exercise 3: Multiple Inputs
 print("\n=== Exercise 3: Multiple Inputs ===")
 first_name = input("Enter your first name: ")
