@@ -21,3 +21,4 @@ printf("Age",age)
 printf("Email",email)
 printf("phone no",phone_name)
 printf("Favorite hobby",hobby)
+
