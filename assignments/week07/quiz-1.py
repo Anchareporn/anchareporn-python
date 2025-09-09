@@ -25,12 +25,12 @@ print(rect.get_perimeter())  # Should print 30
 
 
 class Circle:
-    def _ _init _ _(self,x):
+    def __init__(self,x):
       self.radius = x
     def getArea(self):
         return 3.146*self.radius*self.radius
     def getPerimerter(self):
         return  2*3.146*self.rassamee
-ciercle=circle10
+circle = circle(10)
 print(circle.getArea())
 print(circle.getperimerter())
