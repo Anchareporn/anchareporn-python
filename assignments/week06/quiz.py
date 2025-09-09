@@ -7,8 +7,13 @@ return ข้อความต้อนรับในรูปแบบ string
 """
 def welcome_message(name, course):
     # Your Problem 1 solution
+<<<<<<< HEAD
     return"Welcome" + name +"to" + Course +"Class!"
     return f"Welcome {name} to {course}class!"
+=======
+    pass
+
+>>>>>>> upstream/main
 """ เขียน function ชื่อ calculate_circle ที่มีคุณสมบัติดังนี้:
 
 รับ parameter 1 ตัว คือ radius
@@ -18,6 +23,7 @@ return dictionary ที่มี area และ circumference
 
 def calculate_circle(radius):
     # Your Problem 2 solution
+<<<<<<< HEAD
     pi =3.14159
     area = pi *radius * radius
     cicrcumference =2*pi * radius
@@ -25,6 +31,10 @@ def calculate_circle(radius):
         "area" : area,
         "cicrcumfence" ; cicrcumference
     }
+=======
+    pass
+
+>>>>>>> upstream/main
 """ เขียน function ชื่อ create_user_profile ที่มีคุณสมบัติดังนี้:
 
 รับ parameters: username (จำเป็น), age (ค่าเริ่มต้น 18), premium (ค่าเริ่มต้น False)
@@ -35,10 +45,14 @@ return string ที่จัดรูปแบบข้อมูลผู้ใ
 
 def create_user_profile(username, age=18, premium=False):
     # Your Problem 3 solution
+<<<<<<< HEAD
     if premium:
         return f"{user name} (age:{age}) - Premium User"
     else:
         return f"[username] (age: {age}) - [Permium User/Stadard User]"
+=======
+    pass
+>>>>>>> upstream/main
 
 """ เขียน function ชื่อ analyze_scores ที่มีคุณสมบัติดังนี้:
 
@@ -53,6 +67,7 @@ passed: จำนวนคะแนนที่ >= 70 """
 
 def analyze_scores(scores):
     # Your Problem 4 solution
+<<<<<<< HEAD
    total= sum (numbers)
    count=len(numbers)
    average=total/count
@@ -66,6 +81,10 @@ def analyze_scores(scores):
     'higthest':higthest,
     'passed': counter
    }
+=======
+    pass
+
+>>>>>>> upstream/main
 """ เขียน function ชื่อ count_vowels_consonants ที่มีคุณสมบัติดังนี้:
 
 รับ parameter text เป็น string
@@ -75,6 +94,7 @@ return dictionary ที่มี vowels และ consonants counts
 
 def count_vowels_consonants(text):
     # Your Problem 5 solution
+<<<<<<< HEAD
     text="I'm Iron Man"
     text.lower()
     text.replace("","")
@@ -91,6 +111,9 @@ def count_vowels_consonants(text):
      
     vowels=text.count('a')+text.count('e')+text.count('i')+text.count('o')+text.count('u')
     consonants=len(text)-vowels
+=======
+    pass
+>>>>>>> upstream/main
 
 # =============================================================================
 # TEST SECTION - DO NOT MODIFY
