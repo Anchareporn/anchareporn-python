@@ -27,4 +27,3 @@ class Cae(Vehicle):
 
 myCar =Car("Toyota","Prius",2022,5)         
 print(myCar.get_info())
-   
